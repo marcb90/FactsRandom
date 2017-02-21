@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        FactLabel.text = factModel.facts[0]
+        FactLabel.text = factModel.randomNumber()
         
     }
 
@@ -28,7 +28,7 @@ class ViewController: UIViewController {
     
    
     @IBAction func showFact() {
-        FactLabel.text = factModel.facts[1]
+        FactLabel.text = factModel.randomNumber()
         
     }
     
