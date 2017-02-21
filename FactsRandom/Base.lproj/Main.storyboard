@@ -36,9 +36,7 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <color key="tintColor" red="0.35294117650000001" green="0.73333333329999995" blue="0.70980392160000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Show another fact">
-                                    <color key="titleColor" red="0.35294117650000001" green="0.73333333329999995" blue="0.70980392160000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
+                                <state key="normal" title="Show another fact"/>
                                 <connections>
                                     <action selector="showFact" destination="BYZ-38-t0r" eventType="touchUpInside" id="VRB-yc-knd"/>
                                 </connections>
@@ -63,7 +61,9 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="FactButton" destination="sab-a3-e7k" id="9cL-qn-lFl"/>
                         <outlet property="FactLabel" destination="2rQ-Wp-bXv" id="pFj-db-QhG"/>
+                        <outlet property="factButton" destination="sab-a3-e7k" id="vXz-ys-WHQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

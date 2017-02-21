@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DA7009ED1E5B9A8C00C98503 /* FactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7009EC1E5B9A8C00C98503 /* FactModel.swift */; };
+		DA7009EF1E5CEBCF00C98503 /* ColorGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7009EE1E5CEBCF00C98503 /* ColorGenerator.swift */; };
 		DAEA074F1E5B962400A40ED2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEA074E1E5B962400A40ED2 /* AppDelegate.swift */; };
 		DAEA07511E5B962400A40ED2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEA07501E5B962400A40ED2 /* ViewController.swift */; };
 		DAEA07541E5B962400A40ED2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAEA07521E5B962400A40ED2 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		DA7009EC1E5B9A8C00C98503 /* FactModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactModel.swift; sourceTree = "<group>"; };
+		DA7009EE1E5CEBCF00C98503 /* ColorGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorGenerator.swift; sourceTree = "<group>"; };
 		DAEA074B1E5B962400A40ED2 /* FactsRandom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FactsRandom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAEA074E1E5B962400A40ED2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAEA07501E5B962400A40ED2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				DAEA074E1E5B962400A40ED2 /* AppDelegate.swift */,
 				DAEA07501E5B962400A40ED2 /* ViewController.swift */,
 				DA7009EC1E5B9A8C00C98503 /* FactModel.swift */,
+				DA7009EE1E5CEBCF00C98503 /* ColorGenerator.swift */,
 				DAEA07521E5B962400A40ED2 /* Main.storyboard */,
 				DAEA07551E5B962400A40ED2 /* Assets.xcassets */,
 				DAEA07571E5B962400A40ED2 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA7009ED1E5B9A8C00C98503 /* FactModel.swift in Sources */,
+				DA7009EF1E5CEBCF00C98503 /* ColorGenerator.swift in Sources */,
 				DAEA07511E5B962400A40ED2 /* ViewController.swift in Sources */,
 				DAEA074F1E5B962400A40ED2 /* AppDelegate.swift in Sources */,
 			);
